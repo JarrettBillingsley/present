@@ -1,9 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 <head>
 	<meta charset="utf-8">
 	<title>Present🎁</title>
 	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="animate.min.css">
 	<script src="jquery.js"></script>
 	<script src="html2canvas.min.js"></script>
 	<script src="fullscreen.js"></script>
@@ -12,7 +13,7 @@
 <body lang="en">
 	<input type="range" id="scale" min="10" max="200" value="100">
 	<output id="scale-out"></output>
-	<button type="button" id="reset-scale">reset</button>
+	<button type="button" id="reset-scale">Reset</button>
 	<button type="button" id="full-screen">Fullscreen</button>
 	<button type="button" id="anim-prev">&lt;</button>
 	<button type="button" id="anim-next">&gt;</button>
@@ -22,7 +23,7 @@
 	<div id="slide-view">
 		<div id="slide1" class="slide normal-slide">
 			<header>
-				<h1>This is the slide header.</h1>
+				<h1 class="animated bounceInDown">This is the slide header.</h1>
 			</header>
 			<main>
 				<ul>
